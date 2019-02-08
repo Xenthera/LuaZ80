@@ -10,7 +10,7 @@ This emulator was inspired by [DrGoldfire's](https://github.com/DrGoldfire/Z80.j
 
 
 ## Usage
-The Z80.lua file contains the Z80 code itself as well as a memory "class" that the Z80 needs to operate, however as long as you expose the right methods you can build your own class as well. 
+The Z80.lua file contains the Z80 code itself as well as a memory "class" that the Z80 needs to operate, however as long as you expose the right methods you can build your own memory class. 
 
 ```lua
 dofile("Z80.lua")
