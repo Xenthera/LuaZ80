@@ -15,7 +15,7 @@ The Z80.lua file contains the Z80 code itself as well as a memory "class" that t
 ```lua
 dofile("Z80.lua")
 mem = Memory()
-z80 = Z80(m)
+z80 = Z80(mem)
 ```
 
 
