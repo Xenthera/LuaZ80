@@ -1,5 +1,7 @@
 # LuaZ80
 
+![alt text](https://i.imgur.com/3OcWUh3.png)
+
 This is a Z80 emulator core written in pure Lua, meant to be used as a base for other emulator projects. 
 
 It is fully compliant with, and can pass all ZEXDOC tests with no errors and is recommended to be ran with LuaJIT to get reasonable performance.
