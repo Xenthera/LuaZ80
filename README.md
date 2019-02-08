@@ -29,4 +29,4 @@ z80 = Z80(mem)
 
 
 
-(Yes, I know the picture isn't a Z80, I spent too long in photoshop to try again)
+(Yes, I know the picture isn't a Z80, I spent entirely too long in photoshop to try again)
