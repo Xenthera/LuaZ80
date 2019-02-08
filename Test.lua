@@ -1,4 +1,5 @@
--- This script runs the ZEXDOC test through the emulator. Please ensure you have the Z80.lua and ZEXDOC.asm file in the same directory as this file
+-- This script runs the ZEXDOC test through the emulator. 
+-- Please ensure you have the Z80.lua and ZEXDOC.asm file in the same directory as this file
 
 if not bit then bit = bit32 end
 
