@@ -20,7 +20,7 @@ mem = Memory()
 z80 = Z80(mem)
 ```
 
-These are the methods mean to be used from the Z80.
+These are the methods meant to be used to interact with the Z80.
 
 ```lua
 -- Resets the processor
