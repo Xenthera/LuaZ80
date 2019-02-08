@@ -1,6 +1,6 @@
 # LuaZ80
 
-![alt text](https://i.imgur.com/3OcWUh3.png)
+![alt text](https://i.imgur.com/Q8qLcOJ.png)
 
 This is a Z80 emulator core written in pure Lua, meant to be used as a base for other emulator projects. 
 
@@ -25,3 +25,8 @@ z80 = Z80(mem)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
+
+
+
+
+(Yes, I know the picture isn't a Z80, I spent too long in photoshop to try again)
