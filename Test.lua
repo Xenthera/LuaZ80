@@ -1,3 +1,5 @@
+-- This script runs the ZEXDOC test through the emulator.
+
 if not bit then bit = bit32 end
 
 dofile("Z80.lua")
