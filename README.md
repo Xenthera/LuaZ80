@@ -29,7 +29,7 @@ reset()
 --Runs the instruction pointed to by the PC. Increments the PC
 run_instruction()
 
---Triggers an interrupt
+--Triggers an interrupt (boolean, value)
 interrupt(non_maskable, data)
 
 --Returns a table populated with the current state of the CPU. Includes flags, registers, PC, etc.
