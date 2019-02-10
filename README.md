@@ -48,11 +48,11 @@ mem = Memory()
 or
 mem = Memory(ramSize, portSize)
 
--- Set the objects memory table to the provided memory table
+-- Set the internal memory table to the provided memory table
 mem:setRam(ram)
 
--- Set the objects ports table to the provided ports table
-mem:setPorts()
+-- Set the internal ports table to the provided ports table
+mem:setPorts(ports)
 
 -- Read the byte value at a given memory address
 mem:mem_read(address)
