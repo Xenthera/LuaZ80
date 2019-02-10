@@ -24,19 +24,19 @@ These are the methods meant to be used to interact with the Z80.
 
 ```lua
 -- Resets the processor
-reset()
+Z80:reset()
 
 --Runs the instruction pointed to by the PC. Increments the PC
-run_instruction()
+Z80:run_instruction()
 
 --Triggers an interrupt (boolean, value)
-interrupt(non_maskable, data)
+Z80:interrupt(non_maskable, data)
 
 --Returns a table populated with the current state of the CPU. Includes flags, registers, PC, etc.
-getState()
+Z80:getState()
 
 --Sets the state of the cpu. Should be a table in the same format as returned by getState()
-setState(state)
+Z80:setState(state)
 
 ```
 
