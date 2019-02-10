@@ -24,19 +24,50 @@ These are the methods meant to be used to interact with the Z80.
 
 ```lua
 -- Resets the processor
-Z80:reset()
+z80:reset()
 
 --Runs the instruction pointed to by the PC. Increments the PC
-Z80:run_instruction()
+z80:run_instruction()
 
 --Triggers an interrupt (boolean, value)
-Z80:interrupt(non_maskable, data)
+z80:interrupt(non_maskable, data)
 
 --Returns a table populated with the current state of the CPU. Includes flags, registers, PC, etc.
-Z80:getState()
+z80:getState()
 
 --Sets the state of the cpu. Should be a table in the same format as returned by getState()
-Z80:setState(state)
+z80:setState(state)
+
+```
+
+Here are some useful methods for the built-in memory class
+
+```lua
+--Initialize a memory bank
+mem = Memory()
+or
+mem = Memory(ramSize, portSize)
+
+-- Set the objects memory table to the provided memory table
+mem:setRam(ram)
+
+-- Set the objects ports table to the provided ports table
+mem:setPorts()
+
+-- Read the byte value at a given memory address
+mem:mem_read(address)
+
+-- Write a byte value at a given memory address
+mem:mem_write(address, value)
+
+-- Read the byte value at a given port address
+mem:io_read(address)
+
+-- Write a byte value at a given port address
+mem:io_write(address, value)
+
+-- Prints a dump of the currently loaded memory
+mem:dumpMemory()
 
 ```
 
