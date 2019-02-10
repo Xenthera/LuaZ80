@@ -44,7 +44,7 @@ Here are some useful methods for the built-in memory class
 
 ```lua
 --Initialize a memory bank
-mem = Memory()
+mem = Memory() -- Default sizes of 0x10000 or 65536 bytes
 or
 mem = Memory(ramSize, portSize)
 
